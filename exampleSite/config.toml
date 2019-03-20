@@ -1,5 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "https://yinheio.github.io/"
 title = "梦幻银河"
+languageCode = "zh-CN"
+hasCJKLanguage = true
 theme = "Galaxy"
 paginate = 12
 enableEmoji = true
@@ -7,12 +9,16 @@ enableRobotsTXT = true
 googleAnalytics = ""
 
 preserveTaxonomyNames = true
-
+defaultLayout="posts" # DO NOT CHANGE IT
 [blackfriday]
   hrefTargetBlank = true
   nofollowLinks = true
   noreferrerLinks = true
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  
 [Permalinks]
  posts = "/:sections/:filename/"
 
@@ -24,8 +30,6 @@ preserveTaxonomyNames = true
   [[menu.main]]
     identifier = "about"
     name = "关于"
-    url = "/about/"
+    url = "/posts/about/"
     weight = 4
-
-       
 

@@ -1,7 +1,7 @@
 # Galaxy
 Galaxy theme, ported to Hugo.
 
-预览效果:[梦幻银河](http://yinhe.io/)
+预览效果:[梦幻银河](https://yinheio.github.io/)
 
 
 一款非常简洁、性能高的Hugo主题，适配不同的设备（PC，Mobile等）。 

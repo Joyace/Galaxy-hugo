@@ -6,7 +6,7 @@
 name = "Galaxy Hugo"
 license = "MIT"
 licenselink = ""
-description = "Galaxy Hugo由 Maupassant , LeaveIt 两个主题修改而来."
+description = "Galaxy主题由 Maupassant , LeaveIt 两个主题修改而来."
 homepage = "https://github.com/yinheio/Galaxy-hugo"
 tags = ["Galaxy"]
 features = ["Tag","Category","Menu","Recent Post","Archives"]
