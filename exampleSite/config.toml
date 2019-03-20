@@ -1,0 +1,31 @@
+baseURL = "https://example.com"
+title = "梦幻银河"
+theme = "Galaxy"
+paginate = 12
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:sections/:filename/"
+
+[params]
+    subtitle = "想象力才是终极生产力"  
+	
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+
+       
+
