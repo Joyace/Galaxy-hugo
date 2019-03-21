@@ -9,21 +9,21 @@
 </footer>
 
 {{ if .IsPage }}
-    <script type="text/javascript">
+<script type="text/javascript">
     //添加行号
-    (function(){
+    (function () {
         $("pre code").parent().addClass("line-numbers")
     }())
 
     window.MathJax = {
         tex2jax: {
-            inlineMath: [ ['$','$'] ],
+            inlineMath: [['$', '$']],
             processEscapes: true
         }
     };
-    </script>
-    <script type="text/javascript" src="{{ "js/prism.js" | relURL}}" async="true"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+</script>
+<script type="text/javascript" src="{{ "js/prism.js" | relURL}}" async="true"></script>
+<script type="text/javascript" src="{{ "js/mathjax.js" | relURL}}" async="true"></script>
 {{ end }}
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src="{{ "js/totop.js?v=0.0.0" | relURL }}" async=""></script>
@@ -35,5 +35,5 @@
 
 <!-- custom js -->
 {{ range .Site.Params.customJS }}
-  <script src="{{ "/js/" | relURL }}{{ . }}"></script>
+<script src="{{ "/js/" | relURL }}{{ . }}"></script>
 {{ end }}

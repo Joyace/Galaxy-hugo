@@ -81,3 +81,7 @@ preserveTaxonomyNames = true
     url = "/about/"
     weight = 4
 ```
+
+# 更多信息
+
+参考 [https://yinheio.github.io/posts/hugo_galaxy/](https://yinheio.github.io/posts/hugo_galaxy/)
